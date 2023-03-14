@@ -1,0 +1,16 @@
+{
+  "contracts": {
+    "Base64": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "DAO": "32442f713fb5c1d1b3051c6a20774b2301ffa168",
+    "GoldenFarm": "f2ee779538af3981dac115d05e171045b06deabc",
+    "GoldenToken": "4d6227c83c05ef3a4a14bdc30625f7b803d1df14",
+    "Lottery": "539f19da4cce60d7bdbc147f81f9b2579a2d9635",
+    "MockDAI": "6c7943dbdc973b4e987fc86deee5b735dac2dfb7",
+    "MockERC20": "7559ea784fa7cd27d470b41906355df5a8be33b0",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "35a00bd0a05f7e85e7cb703d5507ba8483956cd1",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "7e4b46976aab58f4bf915c42e8c0fd3d0e3d896f"
+  },
+  "tests": {},
+  "tx": {}
+}

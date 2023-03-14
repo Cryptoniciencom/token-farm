@@ -1,0 +1,72 @@
+{
+  "contracts": {
+    "GoldenToken": "bd78f13239349baffc7b7aa0a2d6ee3c7965d1ea",
+    "MockDAI": "6c7943dbdc973b4e987fc86deee5b735dac2dfb7",
+    "MockERC20": "7559ea784fa7cd27d470b41906355df5a8be33b0",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "MockWETH": "35a00bd0a05f7e85e7cb703d5507ba8483956cd1",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "7e4b46976aab58f4bf915c42e8c0fd3d0e3d896f",
+    "TokenFarm": "f2ee779538af3981dac115d05e171045b06deabc"
+  },
+  "tests": {
+    "tests/Intergation/test_token_farm_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "s",
+      "sha1": "6124132880fe107fcf61c0ad64a9922d9568ad51",
+      "txhash": []
+    },
+    "tests/unit/test_token_farm.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "........",
+      "sha1": "9cc1af335c0305caee021513c09cbfea4e4c70a6",
+      "txhash": [
+        "463b937b8c43a9fbec88c8212522f010a3558ed9",
+        "a2e85b497382bb2182b391d1175046a89da4a349"
+      ]
+    }
+  },
+  "tx": {
+    "463b937b8c43a9fbec88c8212522f010a3558ed9": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ],
+        "7": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "a2e85b497382bb2182b391d1175046a89da4a349": {
+      "TokenFarm": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "4": [
+          [
+            7
+          ],
+          [],
+          []
+        ],
+        "7": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
