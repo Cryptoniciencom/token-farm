@@ -137,3 +137,15 @@ create-next-app
 And also the Vue.js community for the CLI we used to generate our templates:
 
 @vue/cli
+
+Pushing code to github
+
+git init -b main
+git config --Global user.name "Cryptoniciencom"
+git config --Global user.email "cryptoniciens@gmail.com"
+git add .
+git status
+git rm --cached .env
+git commit -m "first commit"
+git remote add origin https://github.com/Cryptoniciencom/token-farm.git
+git push -u origin main
